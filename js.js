@@ -24,7 +24,7 @@ function createBoxes() {
                 
                         setTimeout(() => {
                             event.target.style.backgroundColor = "";
-                        }, 600);
+                        }, 1000);
                     },
                     false,
                 );
@@ -48,7 +48,7 @@ function clearBoard() {
 }
 
 function getRandColor() {
-    let colors = ["red", "orange", "yellow", 'green', 'blue', 'indigo', 'purple'];
+    let colors = ["orangered", "yellow", 'lime', 'aqua', 'violet'];
 
     let randColor = colors[Math.floor(Math.random() * colors.length)];
     
