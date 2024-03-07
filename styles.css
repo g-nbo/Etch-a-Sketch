@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    background-color:lightgray;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 600px;
+    height: 600px;
+    
+}
+
+#btn {
+    width: 200px;
+    height: 100px;
+    background-color: black;
+    font: serif;
+    font-style: bold;
+    font-size: 25px;
+    color: white;
+    
+}
